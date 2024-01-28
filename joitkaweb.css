@@ -1,0 +1,713 @@
+body {
+    font-family: "Maven Pro", sans-serif;
+    margin: 0;
+}
+
+#navigation-bar {
+    width: 100%;
+    /* height: 100px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 80px; */
+    /* position: fixed; */
+    z-index: 100%;
+    padding-bottom: 120px;
+}
+
+#hamburger {
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburg i {
+    font-size: 30px;
+    color: #4FBDC0;
+    /* padding-top: 5px;
+    padding-left: 20px; */
+}
+
+.name-logo {
+    /* width: 20%; */
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.for-icon {
+    color: #217577;
+    background-color: #4FBDC0;
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    margin: 0 0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav-spacing-con {
+    /* height: 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #edf4f5;
+    z-index: 150;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-name {
+    /* width: 69%; */
+    padding: 0 20px;
+    height: 100%;
+    font-size: 1.4em;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.cross-icon {
+    display: none;
+    width: 30px;
+}
+
+.nav-bar-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar-menu-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-bar-menu-item {
+    font-family: "Maven Pro", sans-serif;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.web-color-mode {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-mode-sun-img {
+    display: none;
+}
+
+#first-section {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#for-spacing-first-con {
+    width: 85%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+#first-con-text-box {
+    width: 40%;
+    /* border: 1px solid black; */
+    align-items: center;
+    display: flex;
+}
+
+.animated-info {
+    color: #212121;
+    font-size: 35px;
+}
+
+.my-self {
+    /* border: 1px solid black; */
+    height: 300px;
+}
+
+.my-self p {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #5b5b5b;
+}
+
+.for-resume {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Maven Pro", sans-serif;
+    width: 35%;
+    height: 35px;
+    background: #eee;
+    /* border-radius: 25px; */
+    color: #5b5b5b;
+    font-weight: bold;
+    border-radius: 50px;
+    /* padding: 13px 29px; */
+    font-size: 14px;
+    /* line-height: normal;
+    overflow: hidden;
+    transition: all 0.4s ease; */
+}
+
+.for-resume:hover {
+    color: #ffc200;
+}
+
+.resume-pic {
+    padding-top: 2px;
+}
+
+#first-con-img-box {
+    width: 60%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+#first-con-img-box img {
+    width: 100%;
+}
+
+/* #slider-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prevBtn{
+    margin-right: 10px;
+}
+
+#nextBtn{
+    margin-left:10px;
+} */
+
+.common-name {
+    width: 100%;
+}
+
+#sec-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+#for-spacing-sec-con {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.owl-carousel img {
+    width: 100%;
+}
+
+.sliders {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #edf4f5;
+    border: 1px solid #5b5b5b;
+    color: #5b5b5b;
+    border-radius: 100%;
+    position: absolute;
+}
+
+#prevBtn {
+    left: -70px;
+}
+
+#nextBtn {
+    right: -70px;
+}
+
+.designed-things-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    /* text-decoration: underline; */
+    font-family: "Maven Pro", sans-serif;
+    color: #353535;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sec-img-con {
+    width: 75%;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 300px;
+}
+
+#third-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#for-spc-third-con {
+    width: 70%;
+    flex-direction: row;
+    display: flex;
+    font-family: "Maven Pro", sans-serif;
+}
+
+.left-col {
+    width: 50%;
+}
+
+.right-col {
+    width: 50%;
+}
+
+#for-spc-third-con h2 {
+    color: #353535;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.com-exp-box {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.year-circle {
+    background: #474559;
+    border-radius: 100%;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    /* display: block; */
+    line-height: 75px;
+}
+
+.text-part {
+    margin-left: 100px;
+}
+
+#for-spc-third-con h3 {
+    font-weight: bold;
+    color: #484848;
+    letter-spacing: -1px;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+
+#for-spc-third-con small {
+    color: #474559;
+    font-size: 16px;
+    font-weight: bold;
+    /* display: inline-block;
+    vertical-align: middle; */
+    margin-left: 15px;
+}
+
+.text-part p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #5b5b5b;
+    font-family: "Maven Pro", sans-serif;
+}
+
+#fourth-section {
+    margin-bottom: 200px;
+    font-family: "Maven Pro", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-detail-blk {
+    color: #353535;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    width: 50%;
+}
+
+#for-spc-frth-con {
+    width: 75%;
+}
+
+/* .name-email-bkl input {
+    height: 48px;
+    width: 250px;
+} */
+
+.name-email-bkl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+/* .name-email-bkl placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+} */
+.form-control {
+    font-family: "Maven Pro", sans-serif;
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px 20px;
+}
+
+.msg-holder {
+    width: 93%;
+    padding: 10px 20px 60px;
+    font-family: "Maven Pro", sans-serif;
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.user-detail-blk h2 {
+    margin-top: 5px;
+}
+
+.sum-btn-usr-det input {
+    background: #ffc200;
+    border-style: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    height: 48px;
+    width: 30%;
+    font-family: "Maven Pro", sans-serif;
+    margin-top: 35px;
+}
+
+.sub-btn-cntrol:hover {
+    background-color: #495057;
+
+}
+
+
+
+@media screen and (max-width:1100px) {
+    .name-logo {
+        width: 27%;
+    }
+
+    .for-resume {
+        width: 40%;
+    }
+
+    .owl-nav {
+        top: 220px;
+    }
+
+    .nav-bar-menu {
+        width: auto;
+    }
+
+    .form-control {
+        padding: 10px 40px;
+    }
+
+    #for-spacing-first-con {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    #first-con-text-box {
+        width: auto;
+        text-align: center;
+    }
+
+    #first-con-img-box {
+        width: auto;
+    }
+
+    #for-spacing-sec-con {
+        width: 90%;
+    }
+
+    #for-spc-third-con {
+        width: 85%;
+    }
+
+    #for-spc-frth-con {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-detail-blk {
+        width: 75%;
+        text-align: center;
+    }
+
+    .rsm-spc-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name-email-bkl {
+        margin-bottom: 33px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #for-spc-third-con {
+        width: 95%;
+    }
+
+    #for-spacing-first-con {
+        width: 95%;
+    }
+
+    #for-spacing-sec-con {
+        width: 100%;
+    }
+
+    .nav-bar-menu {
+        width: auto;
+    }
+
+    .web-color-mode {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    #hamburger {
+        display: block;
+    }
+
+    .nav-bar-menu {
+        display: none;
+    }
+
+    .web-color-mode {
+        display: none;
+    }
+
+    .name-logo {
+        margin-left: 40px;
+    }
+
+    .owl-nav {
+        top: 190px;
+    }
+
+    .nav-bar-menu {
+        width: auto;
+    }
+
+    .web-color-mode {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .for-icon {
+        height: 75px;
+        width: 29%;
+    }
+
+    .menu-hamburg-con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hamburger {
+        display: flex;
+    }
+
+    .name-logo {
+        width: 55%;
+    }
+
+    .icon-name {
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .nav-bar-menu {
+        width: 90%;
+    }
+
+    #nav-spacing-con {
+        justify-content: space-around;
+        padding-left: 0;
+        align-items: normal;
+    }
+
+    .name-logo {
+        margin: 0;
+        justify-content: flex-start;
+        width: 70%;
+    }
+
+    #hamburger {
+        width: 40px;
+        height: 40px;
+        margin-right: 0;
+    }
+
+    #first-con-img-box {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #for-spacing-sec-con {
+        width: 95%;
+    }
+
+    .designed-things-heading {
+        text-align: center;
+    }
+
+    .for-resume {
+        width: 50%;
+    }
+
+    .sec-img-con {
+        width: 85%;
+    }
+
+    #for-spc-third-con {
+        flex-direction: column;
+    }
+
+    #prevBtn {
+        left: 0
+    }
+
+    #nextBtn {
+        right: 0;
+    }
+
+    .owl-nav {
+        bottom: 0;
+        justify-content: center;
+        padding: 40px 0 0 0;
+    }
+
+    .left-col {
+        width: 100%;
+    }
+
+    .headings {
+        text-align: center;
+    }
+
+    .right-col {
+        width: 100%;
+    }
+
+    #for-spc-frth-con {
+        width: 90%;
+    }
+
+    .user-detail-blk {
+        width: 90%;
+    }
+
+    .name-holder {
+        margin-bottom: 30px;
+    }
+
+    .name-email-bkl {
+        flex-direction: column;
+        display: flex;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+
+    .msg-holder {
+        padding: 10px 10px 60px 10px;
+    }
+
+    .sum-btn-usr-det input {
+        width: 50%;
+    }
+
+    .form-control {
+        width: 93%;
+        padding: 10px 9px;
+    }
+
+    .user-detal-row {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-bar-menu-list {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background-color: black;
+        top: -16px;
+        height: 100vh;
+        padding-top: 20px;
+        align-items: center;
+        opacity: 0.9;
+        flex-direction: column;
+    }
+
+    .nav-bar-menu-item {
+        color: white;
+        font-size: 30px;
+        font-weight: 200;
+        padding: 20px 20px;
+    }
+}
