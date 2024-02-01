@@ -422,7 +422,7 @@ body {
     margin-top: 5px;
 }
 
-.sum-btn-usr-det input {
+.sum-btn-usr-det button {
     background: #ffc200;
     border-style: none;
     border-radius: 50px;
